@@ -1,4 +1,4 @@
-##About
+## About
 
 A decentralized dAPP run on a local Ethereum test blockchain network, using Solidity and Truffle on the backend, and React and Web3 on the frontend. View a list of projects, with the option to "Join" one that interests you.
 
