@@ -72,7 +72,7 @@ App2 = {
       }
     });
 
-    return App.initWeb3();
+    //return App.initWeb3();
   },
 
   // initWeb3: function() {
@@ -146,7 +146,7 @@ App2 = {
 
 $(function() {
   $(window).load(function() {
-    App.init();
+    App2.init();
   });
 });
 
