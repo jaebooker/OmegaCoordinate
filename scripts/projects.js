@@ -23,17 +23,17 @@ App = {
     return App.initWeb3();
   },
 
-  initWeb3: function() {
-      //Is there a web3 instance?
-      if (typeof web3 !== 'underfined') {
-          App.web3Provider = web3.currentProvider;
-      } else {
-          //is there's no web3, use Ganache
-          App.web3Provider = new Web3.providers.HttpProvider("https://ropsten.etherscan.io/address/0x359f2c53358791bd225c6cdbd5fdc13e8951e0e9");
-      }
-      web3 = new Web3(App.web3Provider);
-      return App.initContract();
-  },
+  // initWeb3: function() {
+  //     //Is there a web3 instance?
+  //     if (typeof web3 !== 'underfined') {
+  //         App.web3Provider = web3.currentProvider;
+  //     } else {
+  //         //is there's no web3, use Ganache
+  //         App.web3Provider = new Web3.providers.HttpProvider("https://ropsten.etherscan.io/address/0x359f2c53358791bd225c6cdbd5fdc13e8951e0e9");
+  //     }
+  //     web3 = new Web3(App.web3Provider);
+  //     return App.initContract();
+  // },
 
   initContract: function() {
       $.getJSON('projects.json', function(data) {
