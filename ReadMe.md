@@ -5,7 +5,9 @@ A decentralized dAPP run on a local Ethereum test blockchain network, using Soli
 ## Articles
 
 Articles about this project.
+
 Part 1, on the concept: https://medium.com/@jaesonbooker/how-to-hunt-a-mammoth-50579302f3a3
+
 Part 2, on blockchains: https://medium.com/@jaesonbooker/after-the-hunt-how-to-hunt-a-mammoth-part-ii-db969f8cfdb
 
 ## Installation
